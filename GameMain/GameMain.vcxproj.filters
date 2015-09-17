@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{cc3c369d-2168-4206-9598-1e89307f3e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎">
+      <UniqueIdentifier>{ec9e72cf-195a-478c-b72d-f5c84129a805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="外部工具">
+      <UniqueIdentifier>{11507489-33e3-48ae-b613-5abd54c1cd26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\宏定义">
+      <UniqueIdentifier>{55e42bd3-e5a0-4ce2-b924-a977fc5d6f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\其他工具">
+      <UniqueIdentifier>{a0e67ea6-9315-4f83-a403-d1008bd0b270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\其他工具\程序入口">
+      <UniqueIdentifier>{c916b807-5de4-4a60-8d14-ff30e904d277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\其他工具\迭代器失效解决方案">
+      <UniqueIdentifier>{f9c62b9a-167e-4f3f-a0be-d1bc284754e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\其他工具\断言器">
+      <UniqueIdentifier>{ed0aac5f-7991-4a38-87db-89548416974c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\其他工具\公共头文件">
+      <UniqueIdentifier>{aecd6d97-197b-4206-b764-ecf361448cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\其他工具\公共头文件\宏定义">
+      <UniqueIdentifier>{f9f729c0-f0fc-40d2-b491-5cf7e48493e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\其他工具\回调函数">
+      <UniqueIdentifier>{018ad2df-a2ea-494f-bf34-8a42621a71b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\其他工具\容器">
+      <UniqueIdentifier>{6163589c-2b0c-4dcf-ac08-593ae5d2af59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\其他工具\数据类型">
+      <UniqueIdentifier>{16c61398-f727-42f4-b988-da551541cce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\模型">
+      <UniqueIdentifier>{94f64365-aeed-49b0-8b9a-c349145510c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\模型\导演">
+      <UniqueIdentifier>{559c75ca-3d84-41bd-ac4f-5175874ce892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\独立模块">
+      <UniqueIdentifier>{95da0bee-c576-4b11-8d39-dc2dac87a148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\独立模块\动画缓存">
+      <UniqueIdentifier>{35674af4-f19c-4187-a9c3-77c063d40bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\独立模块\纹理缓存">
+      <UniqueIdentifier>{5298115b-b4bc-4f64-a507-64b256d6ca10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\独立模块\精灵帧缓存">
+      <UniqueIdentifier>{ca961e8d-c018-4e02-bb43-7ff37137ed56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\独立模块\观察者模式">
+      <UniqueIdentifier>{6830da81-47c3-4572-abc0-11c386fe65c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\主循环模块">
+      <UniqueIdentifier>{fcfcbd8e-8c7d-4cd5-ac2f-94e0ebd7a73e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\主循环模块\渲染命令队列">
+      <UniqueIdentifier>{694ac7cc-e48f-496b-94d5-4850498e5cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\主循环模块\动作系统">
+      <UniqueIdentifier>{4e0e4a26-e777-40df-a645-5f9424e244a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\主循环模块\消息分发">
+      <UniqueIdentifier>{9eab3180-3b79-4103-baa0-803b4ff6df84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\主循环模块\内存管理">
+      <UniqueIdentifier>{58680829-8b41-4a69-a5c5-438261caca45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\主循环模块\内存管理\管理器">
+      <UniqueIdentifier>{d0352231-e6f1-4655-95a6-e27100b9801a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\主循环模块\内存管理\引用模型">
+      <UniqueIdentifier>{1df82dc8-c7fb-4b22-8b61-173d4f3991ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\主循环模块\时间系统">
+      <UniqueIdentifier>{b29436b5-e26a-4b44-b788-630e0f045ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\主循环模块\时间系统\计时器">
+      <UniqueIdentifier>{66adefba-82ca-48ae-bc16-f8cbd69f0899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\主循环模块\时间系统\计时器\模型">
+      <UniqueIdentifier>{0361a950-3162-47f5-a6f0-9ca0d044bf31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\主循环模块\时间系统\调度器">
+      <UniqueIdentifier>{40ade9bb-bec6-4a13-924c-9a34e3f09279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\主循环模块\渲染器">
+      <UniqueIdentifier>{458d4c96-f35f-43c3-a09e-6d05d7029a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\主循环模块\渲染器\渲染器接口">
+      <UniqueIdentifier>{0a8febf1-e671-4c19-a881-c5352fd04c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\主循环模块\渲染器\Direct3D渲染器">
+      <UniqueIdentifier>{f0bb1f21-7951-43af-8c5a-e362ea6481d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\独立模块\坐标系统">
+      <UniqueIdentifier>{85a4204e-57b2-4761-ad4d-8f3216651fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\主循环模块\消息分发\消息模型">
+      <UniqueIdentifier>{bfede246-273d-4f83-a723-70fb46787d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\主循环模块\消息分发\监听器">
+      <UniqueIdentifier>{693f2a74-9407-462b-abfe-d6dab511cecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\主循环模块\渲染命令队列\模型">
+      <UniqueIdentifier>{1e0a932e-76ff-41e4-98e0-f922e0b41db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\UI引擎">
+      <UniqueIdentifier>{9ddf91b5-5fb4-4beb-bbdf-6e01ebbf0ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\UI引擎\控件">
+      <UniqueIdentifier>{19630b4a-c306-4392-babb-676e4bcd964c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\UI引擎\结构体">
+      <UniqueIdentifier>{1aef1756-dab1-4d89-af15-a979c78e2e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\UI引擎\基类">
+      <UniqueIdentifier>{841f1371-1a00-4a15-8d20-5a3d61b540d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\UI引擎\视图">
+      <UniqueIdentifier>{3d9c3ef7-1d50-4f4a-a5f9-d481b9b15680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\UI引擎\窗口">
+      <UniqueIdentifier>{1886a2e8-2f7c-4257-ae6b-44e26a495d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏引擎\UI引擎\控件管理器">
+      <UniqueIdentifier>{8ae1146b-d588-4b3c-b275-53344bbf5d55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>游戏引擎\主循环模块\时间系统\计时器\模型</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\GString.cpp">
+      <Filter>外部工具</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Value.cpp">
+      <Filter>外部工具</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPool\gbMemoryPool.cpp">
+      <Filter>外部工具</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine.cpp">
+      <Filter>游戏引擎\主循环模块\渲染器</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DXRenderEngine.cpp">
+      <Filter>游戏引擎\主循环模块\渲染器\Direct3D渲染器</Filter>
+    </ClCompile>
+    <ClCompile Include="AppDelegate.cpp">
+      <Filter>游戏引擎\其他工具\程序入口</Filter>
+    </ClCompile>
+    <ClCompile Include="Director.cpp">
+      <Filter>游戏引擎\模型\导演</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec.cpp">
+      <Filter>游戏引擎\其他工具\数据类型</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerSystem.cpp">
+      <Filter>游戏引擎\主循环模块\时间系统\计时器</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPool.cpp">
+      <Filter>游戏引擎\主循环模块\内存管理\管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler.cpp">
+      <Filter>游戏引擎\主循环模块\时间系统\调度器</Filter>
+    </ClCompile>
+    <ClCompile Include="DispatchMessageSystem.cpp">
+      <Filter>游戏引擎\主循环模块\消息分发</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionSystem.cpp">
+      <Filter>游戏引擎\主循环模块\动作系统</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteFrameCache.cpp">
+      <Filter>游戏引擎\独立模块\精灵帧缓存</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureCache.cpp">
+      <Filter>游戏引擎\独立模块\纹理缓存</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationCache.cpp">
+      <Filter>游戏引擎\独立模块\动画缓存</Filter>
+    </ClCompile>
+    <ClCompile Include="ObserverSystem.cpp">
+      <Filter>游戏引擎\独立模块\观察者模式</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordSystem.cpp">
+      <Filter>游戏引擎\独立模块\坐标系统</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadCommandManager.cpp">
+      <Filter>游戏引擎\主循环模块\渲染命令队列</Filter>
+    </ClCompile>
+    <ClCompile Include="SchedulerSystem.cpp">
+      <Filter>游戏引擎\主循环模块\时间系统\调度器</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPoolSystem.cpp">
+      <Filter>游戏引擎\主循环模块\内存管理\管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>游戏引擎\主循环模块\消息分发\消息模型</Filter>
+    </ClCompile>
+    <ClCompile Include="Listener.cpp">
+      <Filter>游戏引擎\主循环模块\消息分发\监听器</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyListener.cpp">
+      <Filter>游戏引擎\主循环模块\消息分发\监听器</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseListener.cpp">
+      <Filter>游戏引擎\主循环模块\消息分发\监听器</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>游戏引擎\主循环模块\渲染命令队列\模型</Filter>
+    </ClCompile>
+    <ClCompile Include="GFrame.cpp">
+      <Filter>游戏引擎\UI引擎\视图</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiObject.cpp">
+      <Filter>游戏引擎\UI引擎\基类</Filter>
+    </ClCompile>
+    <ClCompile Include="GWnd.cpp">
+      <Filter>游戏引擎\UI引擎\窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiObjectManager.cpp">
+      <Filter>游戏引擎\UI引擎\控件管理器</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Win32Utils.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleInstance.h">
+      <Filter>游戏引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>游戏引擎\主循环模块\时间系统\计时器\模型</Filter>
+    </ClInclude>
+    <ClInclude Include="GMAssert.h">
+      <Filter>游戏引擎\其他工具\断言器</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMainHeader.h">
+      <Filter>游戏引擎\其他工具\公共头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\GString.h">
+      <Filter>外部工具</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Value.h">
+      <Filter>外部工具</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool\gbMemoryPool.h">
+      <Filter>外部工具</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilsHeader.h">
+      <Filter>外部工具</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngine.h">
+      <Filter>游戏引擎\主循环模块\渲染器</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObject.h">
+      <Filter>游戏引擎\主循环模块\渲染器\渲染器接口</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXRenderEngine.h">
+      <Filter>游戏引擎\主循环模块\渲染器\Direct3D渲染器</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DXGlobalFunction.h">
+      <Filter>游戏引擎\主循环模块\渲染器\Direct3D渲染器</Filter>
+    </ClInclude>
+    <ClInclude Include="AppDelegate.h">
+      <Filter>游戏引擎\其他工具\程序入口</Filter>
+    </ClInclude>
+    <ClInclude Include="Director.h">
+      <Filter>游戏引擎\模型\导演</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec.h">
+      <Filter>游戏引擎\其他工具\数据类型</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerSystem.h">
+      <Filter>游戏引擎\主循环模块\时间系统\计时器</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler.h">
+      <Filter>游戏引擎\主循环模块\时间系统\调度器</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroHeader.h">
+      <Filter>游戏引擎\宏定义</Filter>
+    </ClInclude>
+    <ClInclude Include="Ref.h">
+      <Filter>游戏引擎\主循环模块\内存管理\引用模型</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>游戏引擎\主循环模块\内存管理\管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>游戏引擎\其他工具\容器</Filter>
+    </ClInclude>
+    <ClInclude Include="Set.h">
+      <Filter>游戏引擎\其他工具\容器</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>游戏引擎\其他工具\容器</Filter>
+    </ClInclude>
+    <ClInclude Include="Prority_List.h">
+      <Filter>游戏引擎\其他工具\容器</Filter>
+    </ClInclude>
+    <ClInclude Include="IteratorSolutioner.h">
+      <Filter>游戏引擎\其他工具\迭代器失效解决方案</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMacroHeader.h">
+      <Filter>游戏引擎\其他工具\公共头文件\宏定义</Filter>
+    </ClInclude>
+    <ClInclude Include="GMCALLFUNC.h">
+      <Filter>游戏引擎\其他工具\回调函数</Filter>
+    </ClInclude>
+    <ClInclude Include="DispatchMessageSystem.h">
+      <Filter>游戏引擎\主循环模块\消息分发</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionSystem.h">
+      <Filter>游戏引擎\主循环模块\动作系统</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadCommandManager.h">
+      <Filter>游戏引擎\主循环模块\渲染命令队列</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteFrameCache.h">
+      <Filter>游戏引擎\独立模块\精灵帧缓存</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureCache.h">
+      <Filter>游戏引擎\独立模块\纹理缓存</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationCache.h">
+      <Filter>游戏引擎\独立模块\动画缓存</Filter>
+    </ClInclude>
+    <ClInclude Include="ObserverSystem.h">
+      <Filter>游戏引擎\独立模块\观察者模式</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordSystem.h">
+      <Filter>游戏引擎\独立模块\坐标系统</Filter>
+    </ClInclude>
+    <ClInclude Include="SchedulerSystem.h">
+      <Filter>游戏引擎\主循环模块\时间系统\调度器</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPoolSystem.h">
+      <Filter>游戏引擎\主循环模块\内存管理\管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="IndependentModule.h">
+      <Filter>游戏引擎\独立模块</Filter>
+    </ClInclude>
+    <ClInclude Include="MainloopModule.h">
+      <Filter>游戏引擎\主循环模块</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>游戏引擎\主循环模块\消息分发\消息模型</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>游戏引擎\主循环模块\消息分发\监听器</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyListener.h">
+      <Filter>游戏引擎\主循环模块\消息分发\监听器</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseListener.h">
+      <Filter>游戏引擎\主循环模块\消息分发\监听器</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>游戏引擎\主循环模块\渲染命令队列\模型</Filter>
+    </ClInclude>
+    <ClInclude Include="GFrame.h">
+      <Filter>游戏引擎\UI引擎\视图</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDataStruct.h">
+      <Filter>游戏引擎\UI引擎\结构体</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiObject.h">
+      <Filter>游戏引擎\UI引擎\基类</Filter>
+    </ClInclude>
+    <ClInclude Include="GStaticText.h">
+      <Filter>游戏引擎\UI引擎\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="GEditorBox.h">
+      <Filter>游戏引擎\UI引擎\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="GScrollControl.h">
+      <Filter>游戏引擎\UI引擎\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="GRadioBox.h">
+      <Filter>游戏引擎\UI引擎\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="GCheckBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GIcon.h">
+      <Filter>游戏引擎\UI引擎\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="GProcessControl.h">
+      <Filter>游戏引擎\UI引擎\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="GGroupBox.h">
+      <Filter>游戏引擎\UI引擎\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="GSlideControl.h">
+      <Filter>游戏引擎\UI引擎\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="GCombBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GWnd.h">
+      <Filter>游戏引擎\UI引擎\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiObjectManager.h">
+      <Filter>游戏引擎\UI引擎\控件管理器</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
